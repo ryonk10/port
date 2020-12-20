@@ -1,5 +1,5 @@
  /*
-@pjs preload="billhaikei,billnaka.png,billmae.png,chara.png,enemyzako.png,enemyreza.png,icontuujyou.png,icongatoring.png,iconcanon.png,iconrazer.png,iconheal.png,icondebafu.png,boss.png";
+@pjs preload="billhaikei.png,billnaka.png,billmae.png,chara.png,enemyzako.png,enemyreza.png,icontuujyou.png,icongatoring.png,iconcanon.png,iconrazer.png,iconheal.png,icondebafu.png,boss.png";
 */
 
 /*
