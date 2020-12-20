@@ -32,7 +32,7 @@ int[] rezacount=new int[21];
 int[] kakucount=new int[200];
 void setup()
 {
-  size(,600);
+  size(600,600);
   billhaikei=loadImage("billhaikei.png");
   billnaka1=loadImage("billnaka.png");
   billnaka2=loadImage("billnaka.png");
