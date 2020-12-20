@@ -2,87 +2,7 @@
 @pjs preload="billhaikei.png,billnaka.png,billmae.png,chara.png,enemyzako.png,enemyreza.png,icontuujyou.png,icongatoring.png,iconcanon.png,iconrazer.png,iconheal.png,icondebafu.png,boss.png";
 */
 
-/*
-kitai();
-boss(ex,ey,enumber,life);
-zako(ex,ey,enumber);
-   
-kougeki1(      
-, //ex
-, //ey
-, //number
-, //namimode
-, //speed
-, //kakuspeed
-, //kakudo
-, //kakuhani
-, //time
-, //start
-, //end
-, //kazu
-);//kankaku----------------------------reset:etc[number]
-                
-kougekinami(      
-, //ex
-, //ey
-, //number
-, //speed
-, //kakuspeed
-, //kakuhani
-, //time
-, //start
-, //end
-, //kazu
-); //kankaku----------------------------reset:etc[number]
-              
-kougekihajou(      
-, //ex
-, //ey
-, //number
-, //speed
-, //kakuhani
-, //time
-, //start
-, //end
-, //kazu
-, //hajoukazu
-);//kankaku  ----------------------------reset:etc[number]=0
-               
-kougekireezayoko(ex,ey,number);--------------------------------reset:reza=0,rezacount=0
-kougekireezatate(ex,ey,number);
 
-koudou1(
-, //ue_left
-, //sita_right
-, //number
-, //koudoumode(0:down_←,1:up_→)
-, //stoptime
-);//koudoutime-----------------------------reset:stop[number]=0
-                  
-shot(kx,ky);
-itemjuu(x,y,mode);
-itemdebafu(x,y,item);item 0:speeddown 1:heal
-edamage(ex,ey,type,enumber);type 0:zako 1:boss
-
-kougekireset---- 
-for(n=0;n<=;n++)
-{
-elife[n]=0;
-etc[n]=0;
-stop[n]=0;
-koudoux[n]=1090;
-}
-                 
-rezareset------- 
-for(n=0;n<=;n++)
-{
-reza[n]=0;
-rezacount[n]=0;
-stop[n]=0;
-koudoux[n]=1090;
-}
-
-*/
 PImage billhaikei,billnaka1,billnaka2,billmae1,billmae2,chara,enemyzako,enemyreza,icontuujyou,icongatoring,iconcanon,iconrazer,iconheal,icondebafu,boss;
 float siz,get,shotmode,shottime,faze,sfaze,enumber,shotdame,temptime,shotreza,shotrezay,shotrezacount,billhaikeix,bomcolor;
 int n,m,ktc1,zakocount,nami2,nami3,ix,iy,billnakax,billmaex,itemtime,itemcount,muteki,bom,bomcount,bossrezacount,bossrezamode,bossrezaswitch;
@@ -112,7 +32,7 @@ int[] rezacount=new int[21];
 int[] kakucount=new int[200];
 void setup()
 {
-  size(1067,600);
+  size(,600);
   billhaikei=loadImage("billhaikei.png");
   billnaka1=loadImage("billnaka.png");
   billnaka2=loadImage("billnaka.png");
