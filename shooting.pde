@@ -1,17 +1,5 @@
  /*
-@pjs preload="billhaikei.png";
-@pjs preload="billnaka.png";
-@pjs preload="billmae.png";
-@pjs preload="chara.png";
-@pjs preload="enemyzako.png";
-@pjs preload="enemyreza.png";
-@pjs preload="icontuujyou.png";
-@pjs preload="icongatoring.png";
-@pjs preload="iconcanon.png";
-@pjs preload="iconrazer.png";
-@pjs preload="iconheal.png";
-@pjs preload="icondebafu.png";
-@pjs preload="boss.png";
+@pjs preload="billhaikei,billnaka.png,billmae.png,chara.png,enemyzako.png,enemyreza.png,icontuujyou.png,icongatoring.png,iconcanon.png,iconrazer.png,iconheal.png,icondebafu.png,boss.png";
 */
 
 /*
