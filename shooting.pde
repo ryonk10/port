@@ -1,17 +1,17 @@
  /*
-@pjs preload="data/billhaikei.png";
-@pjs preload="data/billnaka.png";
-@pjs preload="data/billmae.png";
-@pjs preload="data/chara.png";
-@pjs preload="data/enemyzako.png";
-@pjs preload="data/enemyreza.png";
-@pjs preload="data/icontuujyou.png";
-@pjs preload="data/icongatoring.png";
-@pjs preload="data/iconcanon.png";
-@pjs preload="data/iconrazer.png";
-@pjs preload="data/iconheal.png";
-@pjs preload="data/icondebafu.png";
-@pjs preload="data/boss.png";
+@pjs preload="billhaikei.png";
+@pjs preload="billnaka.png";
+@pjs preload="billmae.png";
+@pjs preload="chara.png";
+@pjs preload="enemyzako.png";
+@pjs preload="enemyreza.png";
+@pjs preload="icontuujyou.png";
+@pjs preload="icongatoring.png";
+@pjs preload="iconcanon.png";
+@pjs preload="iconrazer.png";
+@pjs preload="iconheal.png";
+@pjs preload="icondebafu.png";
+@pjs preload="boss.png";
 */
 
 /*
@@ -125,21 +125,21 @@ int[] kakucount=new int[200];
 void setup()
 {
   size(1067,600);
-  billhaikei=loadImage("data/billhaikei.png");
-  billnaka1=loadImage("data/billnaka.png");
-  billnaka2=loadImage("data/billnaka.png");
-  billmae1=loadImage("data/billmae.png");
-  billmae2=loadImage("data/billmae.png");
-  chara=loadImage("data/chara.png");
-  enemyzako=loadImage("data/enemyzako.png");
-  enemyreza=loadImage("data/enemyreza.png");
-  icontuujyou=loadImage("data/icontuujyou.png");
-  icongatoring=loadImage("data/icongatoring.png");
-  iconcanon=loadImage("data/iconcanon.png");
-  iconrazer=loadImage("data/iconrazer.png");
-  iconheal=loadImage("data/iconheal.png");
-  icondebafu=loadImage("data/icondebafu.png");
-  boss=loadImage("data/boss.png");
+  billhaikei=loadImage("billhaikei.png");
+  billnaka1=loadImage("billnaka.png");
+  billnaka2=loadImage("billnaka.png");
+  billmae1=loadImage("billmae.png");
+  billmae2=loadImage("billmae.png");
+  chara=loadImage("chara.png");
+  enemyzako=loadImage("enemyzako.png");
+  enemyreza=loadImage("enemyreza.png");
+  icontuujyou=loadImage("icontuujyou.png");
+  icongatoring=loadImage("icongatoring.png");
+  iconcanon=loadImage("iconcanon.png");
+  iconrazer=loadImage("iconrazer.png");
+  iconheal=loadImage("iconheal.png");
+  icondebafu=loadImage("icondebafu.png");
+  boss=loadImage("boss.png");
   
   for(n=0;n<200;n++)
   kakucount[n]=n;
