@@ -13,5 +13,5 @@ void draw() {
 }
 
 void mouseClicked() {
-  ellipse(mouseX, mouseY, 50, 50);
+image(enemyzako,mouseX,mouseY);
 }
